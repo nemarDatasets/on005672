@@ -1,28 +1,74 @@
 {
   "version": "2.0",
-  "dataset_id": "on005672",
-  "source": "openneuro",
-  "source_id": "ds005672",
+  "pipeline_stage": "enriched",
   "title": "PerceiveImagine",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Li Zhiyuan": {},
     "Zhao Jiaxin": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005672.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005672",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005672",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1088/1741-2552/ab260c",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "PerceiveImagine is an EEG dataset capturing neural activity during visual perception and imagery tasks. Participants viewed images for 6 seconds following a prompt, then closed their eyes and imagined the same images for 6 seconds. This dataset enables investigation of neural correlates underlying the transition between visual perception and mental imagery.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "visual imagery"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "mental imagery"
+    },
+    {
+      "term": "cognitive neuroscience"
+    }
+  ],
+  "source_hash": "90d22a8fd7773f0c52b0e13304943ea37bbe0825f9544585496c468eb21d7bb2"
 }
