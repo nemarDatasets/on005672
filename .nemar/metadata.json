@@ -1,50 +1,14 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "PerceiveImagine",
+  "description": "PerceiveImagine is an EEG dataset capturing neural activity during visual perception and imagery tasks. Participants viewed images for 6 seconds following a prompt, then closed their eyes and imagined the same images for 6 seconds. This dataset enables investigation of neural correlates underlying the transition between external visual perception and internal visual imagery.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Li Zhiyuan": {},
     "Zhao Jiaxin": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds005672.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on005672",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on005672",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1088/1741-2552/ab260c",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "PerceiveImagine is an EEG dataset capturing neural activity during visual perception and imagery tasks. Participants viewed images for 6 seconds following a prompt, then closed their eyes and imagined the same images for 6 seconds. This dataset enables investigation of neural correlates underlying the transition between visual perception and mental imagery.",
   "keywords": [
     {
       "term": "EEG"
@@ -61,14 +25,49 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "mental imagery"
+      "term": "neural correlates"
     },
     {
       "term": "cognitive neuroscience"
     }
   ],
-  "source_hash": "90d22a8fd7773f0c52b0e13304943ea37bbe0825f9544585496c468eb21d7bb2"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on005672",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005672",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1088/1741-2552/ab260c",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005672.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "4.5 GB (4 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "methods_description": "Participants performed alternating perception and imagery trials. Each trial consisted of a 6-second perception phase where participants viewed an image based on a prompt, followed by a 6-second imagery phase where participants imagined the previously viewed image with eyes closed. Trials were separated by auditory cues signaling task transitions.",
+  "source_hash": "e88a7ceed837da6e9a37baa36fba3674edd741f38380c9aac2188b361b9e6227"
 }
