@@ -2,7 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PerceiveImagine",
-  "description": "PerceiveImagine is an EEG dataset capturing neural activity during visual perception and imagery tasks. Participants viewed images for 6 seconds following a prompt, then closed their eyes and imagined the same images for 6 seconds. This dataset enables investigation of neural correlates underlying the transition between external visual perception and internal visual imagery.",
+  "description": "This dataset contains EEG recordings from an experiment in which participants alternately perceived and imagined visual images based on auditory prompts. Each trial consisted of a 6-second perception phase, during which participants viewed an image, followed by a 6-second imagination phase with eyes closed. The dataset is intended to support research on EEG-based analysis of perception and mental imagery processes, such as deep learning approaches to EEG decoding.",
+  "methods_description": "Participants perceived an image for 6 seconds based on a prompt, then closed their eyes and imagined the image for 6 seconds based on the prompt. After hearing a prompt sound, they proceeded to the next trial.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,21 +15,18 @@
       "term": "EEG"
     },
     {
-      "term": "visual imagery"
+      "term": "mental imagery"
     },
     {
-      "term": "visual perception"
-    },
-    {
-      "term": "Electroencephalography",
+      "term": "Visual Perception",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     },
     {
-      "term": "neural correlates"
+      "term": "deep learning"
     },
     {
-      "term": "cognitive neuroscience"
+      "term": "electroencephalography analysis"
     }
   ],
   "related_identifiers": [
@@ -41,11 +39,6 @@
       "identifier": "https://nemar.org/dataset/on005672",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1088/1741-2552/ab260c",
-      "identifier_type": "DOI",
-      "relation_type": "References"
     },
     {
       "identifier": "10.18112/openneuro.ds005672.v1.0.0",
@@ -68,6 +61,5 @@
     ".tsv",
     ".yml"
   ],
-  "methods_description": "Participants performed alternating perception and imagery trials. Each trial consisted of a 6-second perception phase where participants viewed an image based on a prompt, followed by a 6-second imagery phase where participants imagined the previously viewed image with eyes closed. Trials were separated by auditory cues signaling task transitions.",
   "source_hash": "e88a7ceed837da6e9a37baa36fba3674edd741f38380c9aac2188b361b9e6227"
 }
