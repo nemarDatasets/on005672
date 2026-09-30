@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PerceiveImagine",
-  "description": "This dataset contains EEG recordings from an experiment in which participants alternately perceived and imagined visual images based on auditory prompts. Each trial consisted of a 6-second perception phase, during which participants viewed an image, followed by a 6-second imagination phase with eyes closed. The dataset is intended to support research on EEG-based analysis of perception and mental imagery processes, such as deep learning approaches to EEG decoding.",
-  "methods_description": "Participants perceived an image for 6 seconds based on a prompt, then closed their eyes and imagined the image for 6 seconds based on the prompt. After hearing a prompt sound, they proceeded to the next trial.",
+  "description": "An EEG dataset of a perception and mental imagery task. Participants viewed an image for 6 seconds in response to an auditory prompt, then closed their eyes and imagined the same image for 6 seconds. A further prompt sound started the next trial. The recordings can be used to study neural correlates of visual perception versus imagery and to develop decoding methods.",
+  "methods_description": "Each trial consisted of a 6-second image perception period, followed by eyes-closed mental imagery of the viewed image for 6 seconds. An auditory prompt cued the start of the next trial.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,15 +18,17 @@
       "term": "mental imagery"
     },
     {
+      "term": "visual perception"
+    },
+    {
+      "term": "Imagination",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007092"
+    },
+    {
       "term": "Visual Perception",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
-    },
-    {
-      "term": "deep learning"
-    },
-    {
-      "term": "electroencephalography analysis"
     }
   ],
   "related_identifiers": [
@@ -52,7 +54,7 @@
     "eeg"
   ],
   "sizes": [
-    "4.5 GB (4 files)"
+    "4.23 GB (4 files)"
   ],
   "formats": [
     ".json",
